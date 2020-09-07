@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "es2015", 
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": false,
+        "removeComments": false, 
+        "noImplicitAny": false, 
+        "skipLibCheck": true,
+        "outDir": "./e2e/outputjs",
+        "sourceMap": true,
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["node","cucumber"]
+        },
+        "exclude" : [
+        "node_modules/*"
+        ]
+}

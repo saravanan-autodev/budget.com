@@ -1,0 +1,267 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Budget.com - Feature",
+    "line": 1,
+    "id": "budget.com---feature",
+    "tags": [],
+    "uri": "e2e/features/samplescenarios.feature",
+    "elements": [
+      {
+        "id": "budget.com---feature;car-checkout---suv---lowest-price---4-doors-and-5-seats-only",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Car Checkout - SUV - Lowest Price - 4 Doors and 5 Seats only",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 3
+          },
+          {
+            "name": "@SmokeTest",
+            "line": 3
+          },
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on Application home page",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I type \"Austin Bergstrom Intl Airport\" in \"Enter your pick-up location or zip code\" textbox",
+            "match": {
+              "location": "e2e/ts/spec/GenericStepDef.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on \"Austin Bergstrom Intl Airport\" from search results",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select \"from\" as 7 days from current date",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I select \"to\" as 14 days from current date",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on \"Select My Car\" button",
+            "match": {
+              "location": "e2e/ts/spec/GenericStepDef.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I validate \"Pick-Up\" location is displayed as \"Austin Bergstrom Intl Airport, AUS\"",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I validate \"Return\" location is displayed as \"Austin Bergstrom Intl Airport, AUS\"",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I click on \"All Vehicles\" filter",
+            "match": {
+              "location": "e2e/ts/spec/GenericStepDef.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I click on \"SUVs & Wagons\" filter",
+            "match": {
+              "location": "e2e/ts/spec/GenericStepDef.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I select \"Price (Low to High)\" from \"Sort by:\" dropdown",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I click on \"Pay Now\" button for \"SUV\" car which has \"4 Doors\" and \"5 Seats\"",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I validate \"Pick-Up\" location is displayed as \"Austin Bergstrom Intl Airport, AUS\"",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I validate \"Return\" location is displayed as \"Austin Bergstrom Intl Airport, AUS\"",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I validate the vehicle type is as same as chosen vehicle",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I validate the Base Rate is as same as quote page",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1099000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I validate the estimated total with Base Rate, Fees & Taxes",
+            "match": {
+              "location": "e2e/ts/spec/stepdef.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3285000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
